@@ -3,11 +3,16 @@ body {
   padding: 0;
   font-family: 'Lato', sans-serif;
   box-sizing: border-box;
-  color: white;
+  color: black;
 }
 
 main {
   display: flex;
+}
+
+
+.hire-main{
+    background: #F5F1EE;
 }
 
 .left-container {
@@ -28,7 +33,7 @@ main {
 }
 
 nav {
-  border-bottom: 2px solid #42f4ad;
+  border-bottom: 2px solid #2d302e;
 }
 
 .main-nav-item {
@@ -69,14 +74,100 @@ a:hover {
   left: 350px;
   top: 100px;
   height: 590px;
-  border: 5px solid #42f4ad;
+  border: 4px solid #42f4ad;
+  border-radius: 15px;
 }
 
-footer{
-    background: #2d302e;
-    height: 50px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+footer {
+  background: #2d302e;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+}
+
+.name {
+  margin: 400px 0 0 410px;
+  color: black;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.hire-div {
+  margin: 0 0 0 410px;
+  background: black;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.hire-div:hover {
+  background: #2d302e;
+  color: #42f4ad;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hire-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 150px auto;
+  width: 350px;
+  background: #FFFFFD;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'] {
+  width: 300px;
+  border: none;
+  margin-top: 10px;
+  background: #dfe2e7;
+  height: 25px;
+  padding: 8px;
+  border-radius: 3px;
+  font-size: 14px;
+  border: #2d302e 1px solid;
+}
+
+#subscribe {
+  width: 315px;
+  border: none;
+  margin-top: 10px;
+  background: #dfe2e7;
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  text-transform: capitalize;
+  background: #2d302e;
+  color: #42f4ad;
+}
+
+.hire-now {
+  text-align: left;
+  color: #42f4ad;
+  background: #2d302e;
+  width: 350px;
+  height: 40px;
+  vertical-align: middle;
 }
